@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97EA76BB199DF54E00D13EDE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76BA199DF54E00D13EDE /* main.swift */; };
+		97EA76BD199DF54E00D13EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76BC199DF54E00D13EDE /* AppDelegate.swift */; };
+		97EA76BF199DF54E00D13EDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76BE199DF54E00D13EDE /* Images.xcassets */; };
+		97EA76C2199DF54E00D13EDE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76C0199DF54E00D13EDE /* MainMenu.xib */; };
+		97EA76CE199DF54E00D13EDE /* ZoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76CD199DF54E00D13EDE /* ZoiTests.swift */; };
+		97EA76D8199DF9FF00D13EDE /* pics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76D7199DF9FF00D13EDE /* pics.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97EA76C8199DF54E00D13EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97EA76AD199DF54E00D13EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97EA76B4199DF54E00D13EDE;
+			remoteInfo = Zoi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97EA76B5199DF54E00D13EDE /* Zoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EA76B9199DF54E00D13EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EA76BA199DF54E00D13EDE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		97EA76BC199DF54E00D13EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97EA76BE199DF54E00D13EDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97EA76C1199DF54E00D13EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		97EA76C7199DF54E00D13EDE /* ZoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EA76CC199DF54E00D13EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97EA76CD199DF54E00D13EDE /* ZoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoiTests.swift; sourceTree = "<group>"; };
+		97EA76D7199DF9FF00D13EDE /* pics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pics.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97EA76B2199DF54E00D13EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EA76C4199DF54E00D13EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97EA76AC199DF54E00D13EDE = {
+			isa = PBXGroup;
+			children = (
+				97EA76B7199DF54E00D13EDE /* Zoi */,
+				97EA76CA199DF54E00D13EDE /* ZoiTests */,
+				97EA76B6199DF54E00D13EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97EA76B6199DF54E00D13EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97EA76B5199DF54E00D13EDE /* Zoi.app */,
+				97EA76C7199DF54E00D13EDE /* ZoiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97EA76B7199DF54E00D13EDE /* Zoi */ = {
+			isa = PBXGroup;
+			children = (
+				97EA76D7199DF9FF00D13EDE /* pics.plist */,
+				97EA76BC199DF54E00D13EDE /* AppDelegate.swift */,
+				97EA76BE199DF54E00D13EDE /* Images.xcassets */,
+				97EA76C0199DF54E00D13EDE /* MainMenu.xib */,
+				97EA76B8199DF54E00D13EDE /* Supporting Files */,
+			);
+			path = Zoi;
+			sourceTree = "<group>";
+		};
+		97EA76B8199DF54E00D13EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97EA76B9199DF54E00D13EDE /* Info.plist */,
+				97EA76BA199DF54E00D13EDE /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97EA76CA199DF54E00D13EDE /* ZoiTests */ = {
+			isa = PBXGroup;
+			children = (
+				97EA76CD199DF54E00D13EDE /* ZoiTests.swift */,
+				97EA76CB199DF54E00D13EDE /* Supporting Files */,
+			);
+			path = ZoiTests;
+			sourceTree = "<group>";
+		};
+		97EA76CB199DF54E00D13EDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97EA76CC199DF54E00D13EDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97EA76B4199DF54E00D13EDE /* Zoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EA76D1199DF54E00D13EDE /* Build configuration list for PBXNativeTarget "Zoi" */;
+			buildPhases = (
+				97EA76B1199DF54E00D13EDE /* Sources */,
+				97EA76B2199DF54E00D13EDE /* Frameworks */,
+				97EA76B3199DF54E00D13EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoi;
+			productName = Zoi;
+			productReference = 97EA76B5199DF54E00D13EDE /* Zoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97EA76C6199DF54E00D13EDE /* ZoiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97EA76D4199DF54E00D13EDE /* Build configuration list for PBXNativeTarget "ZoiTests" */;
+			buildPhases = (
+				97EA76C3199DF54E00D13EDE /* Sources */,
+				97EA76C4199DF54E00D13EDE /* Frameworks */,
+				97EA76C5199DF54E00D13EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97EA76C9199DF54E00D13EDE /* PBXTargetDependency */,
+			);
+			name = ZoiTests;
+			productName = ZoiTests;
+			productReference = 97EA76C7199DF54E00D13EDE /* ZoiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97EA76AD199DF54E00D13EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = kikuchy;
+				TargetAttributes = {
+					97EA76B4199DF54E00D13EDE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					97EA76C6199DF54E00D13EDE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 97EA76B4199DF54E00D13EDE;
+					};
+				};
+			};
+			buildConfigurationList = 97EA76B0199DF54E00D13EDE /* Build configuration list for PBXProject "Zoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97EA76AC199DF54E00D13EDE;
+			productRefGroup = 97EA76B6199DF54E00D13EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97EA76B4199DF54E00D13EDE /* Zoi */,
+				97EA76C6199DF54E00D13EDE /* ZoiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97EA76B3199DF54E00D13EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EA76BF199DF54E00D13EDE /* Images.xcassets in Resources */,
+				97EA76C2199DF54E00D13EDE /* MainMenu.xib in Resources */,
+				97EA76D8199DF9FF00D13EDE /* pics.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EA76C5199DF54E00D13EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97EA76B1199DF54E00D13EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EA76BD199DF54E00D13EDE /* AppDelegate.swift in Sources */,
+				97EA76BB199DF54E00D13EDE /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97EA76C3199DF54E00D13EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EA76CE199DF54E00D13EDE /* ZoiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97EA76C9199DF54E00D13EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97EA76B4199DF54E00D13EDE /* Zoi */;
+			targetProxy = 97EA76C8199DF54E00D13EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97EA76C0199DF54E00D13EDE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97EA76C1199DF54E00D13EDE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97EA76CF199DF54E00D13EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97EA76D0199DF54E00D13EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97EA76D2199DF54E00D13EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Zoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97EA76D3199DF54E00D13EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Zoi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		97EA76D5199DF54E00D13EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoi.app/Contents/MacOS/Zoi";
+			};
+			name = Debug;
+		};
+		97EA76D6199DF54E00D13EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZoiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoi.app/Contents/MacOS/Zoi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97EA76B0199DF54E00D13EDE /* Build configuration list for PBXProject "Zoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EA76CF199DF54E00D13EDE /* Debug */,
+				97EA76D0199DF54E00D13EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97EA76D1199DF54E00D13EDE /* Build configuration list for PBXNativeTarget "Zoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EA76D2199DF54E00D13EDE /* Debug */,
+				97EA76D3199DF54E00D13EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97EA76D4199DF54E00D13EDE /* Build configuration list for PBXNativeTarget "ZoiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97EA76D5199DF54E00D13EDE /* Debug */,
+				97EA76D6199DF54E00D13EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97EA76AD199DF54E00D13EDE /* Project object */;
+}

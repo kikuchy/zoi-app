@@ -1,6 +1,6 @@
 # zoi-app
 
-[ダウンロード]
+[ダウンロード](http://kikuchy.github.io/zoi-app/Zoi.zip)
 
 ## 何も起きない？
 

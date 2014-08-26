@@ -52,6 +52,14 @@
 	</dict>
 	<dict>
 		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bvz_j7BIQAA-2ZU.png</string>
+		<key>src</key>
+		<string>pic.twitter.com/2hdOwqy8kB</string>
+		<key>word</key>
+		<string>がんばる</string>
+	</dict>
+	<dict>
+		<key>image</key>
 		<string>https://pbs.twimg.com/media/BspWc7LCAAAPzhS.jpg</string>
 		<key>src</key>
 		<string>pic.twitter.com/DE1dKyLsav</string>
@@ -148,6 +156,14 @@
 	</dict>
 	<dict>
 		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bv91ihIIMAEKl46.png</string>
+		<key>src</key>
+		<string>pic.twitter.com/3k42enLKAy</string>
+		<key>word</key>
+		<string>ねる</string>
+	</dict>
+	<dict>
+		<key>image</key>
 		<string>https://pbs.twimg.com/media/BswuH1qCcAAueYw.jpg</string>
 		<key>src</key>
 		<string>pic.twitter.com/TzK4f6K8Cf</string>
@@ -233,6 +249,46 @@
 		<string>pic.twitter.com/ThDlCfuyba</string>
 		<key>word</key>
 		<string>やった</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bv9V_L0IQAAezI2.png</string>
+		<key>src</key>
+		<string>pic.twitter.com/6TJwjogyli</string>
+		<key>word</key>
+		<string>みてない</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bv9TUBcCUAAf0_y.jpg</string>
+		<key>src</key>
+		<string>pic.twitter.com/uW4FWfXL8l</string>
+		<key>word</key>
+		<string>ふぇ</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bv8lu3RIAAA-N5_.png</string>
+		<key>src</key>
+		<string>pic.twitter.com/NSyR7wrxRU</string>
+		<key>word</key>
+		<string>そやな</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://pbs.twimg.com/media/Bv4MyE7IEAArqbH.png</string>
+		<key>src</key>
+		<string>pic.twitter.com/YkDI3Yu7o0</string>
+		<key>word</key>
+		<string>あ……は…っ</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>https://pbs.twimg.com/media/BvefNGtCUAA4nhm.jpg</string>
+		<key>src</key>
+		<string>pic.twitter.com/V85wHEkcWZ</string>
+		<key>word</key>
+		<string>あ……は…っ</string>
 	</dict>
 </array>
 </plist>

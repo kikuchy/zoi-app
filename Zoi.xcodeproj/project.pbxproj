@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975C315A19ACE8D9006DA02F /* pics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76D7199DF9FF00D13EDE /* pics.plist */; };
 		97EA76BB199DF54E00D13EDE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76BA199DF54E00D13EDE /* main.swift */; };
 		97EA76BD199DF54E00D13EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76BC199DF54E00D13EDE /* AppDelegate.swift */; };
 		97EA76BF199DF54E00D13EDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76BE199DF54E00D13EDE /* Images.xcassets */; };
 		97EA76C2199DF54E00D13EDE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76C0199DF54E00D13EDE /* MainMenu.xib */; };
 		97EA76CE199DF54E00D13EDE /* ZoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EA76CD199DF54E00D13EDE /* ZoiTests.swift */; };
-		97EA76D8199DF9FF00D13EDE /* pics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97EA76D7199DF9FF00D13EDE /* pics.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +121,7 @@
 			buildPhases = (
 				97EA76B1199DF54E00D13EDE /* Sources */,
 				97EA76B2199DF54E00D13EDE /* Frameworks */,
+				975C315919ACDA3F006DA02F /* ShellScript */,
 				97EA76B3199DF54E00D13EDE /* Resources */,
 			);
 			buildRules = (
@@ -192,9 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975C315A19ACE8D9006DA02F /* pics.plist in Resources */,
 				97EA76BF199DF54E00D13EDE /* Images.xcassets in Resources */,
 				97EA76C2199DF54E00D13EDE /* MainMenu.xib in Resources */,
-				97EA76D8199DF9FF00D13EDE /* pics.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +207,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		975C315919ACDA3F006DA02F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/$(TARGET_NAME)/pics.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "tmpfile=$(mktemp zoi-XXXXXX)\ncurl -s 'https://raw.githubusercontent.com/kikuchy/zoi-json/master/zoi.json' | sed s/:large// > ${tmpfile}\nplutil -convert xml1 ${tmpfile} -o ${SRCROOT}/${TARGET_NAME}/pics.plist\nrm ${tmpfile}";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97EA76B1199DF54E00D13EDE /* Sources */ = {
@@ -401,6 +419,7 @@
 				97EA76D3199DF54E00D13EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97EA76D4199DF54E00D13EDE /* Build configuration list for PBXNativeTarget "ZoiTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +428,7 @@
 				97EA76D6199DF54E00D13EDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
